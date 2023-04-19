@@ -34,7 +34,7 @@ while True:
                 eyes_closed = True
             else:
                 elapsed_time = time.time() - start_time
-                if elapsed_time > 5:
+                if elapsed_time > 60:
                     playsound("alarm.mp3")
         else:
             eyes_closed = False
